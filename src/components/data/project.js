@@ -7,7 +7,7 @@ export const ProjectData = [
         tags: ["HTML", "CSS", "JAVASCRIPT", "REACTJS", "FIREBASE"],
         demo: "https://mere-man-ki-baat.netlify.app/",
         github: "https://github.com/sainanda59/mere_man_ki_baat",
-        image: "https://github.com/sainanda59/mere_man_ki_baat/blob/master/assests/what-mental.jpg?raw=true"
+        image: "https://github.com/sainanda59/MERE-MANN-KI-BAAT/raw/master/assests/2.png"
 
     },
 
