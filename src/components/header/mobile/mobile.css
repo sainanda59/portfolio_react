@@ -1,5 +1,15 @@
+.light {
+    --background-color: #fff;
+    --link-color: #000;
+  }
+  
+  .dark {
+    --background-color: #565756;
+    --link-color: #fff;
+  }
+
 .mobile{
-    background-color: white;
+    background-color: var(--background-color);
     height: 100vh;
     width: 60vh;
     position: absolute;
@@ -34,6 +44,6 @@
 
 .mobile-option a{
     text-decoration: none;
-    color: black;
+    color: var(--link-color);
     display: flex;
 }

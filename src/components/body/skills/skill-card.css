@@ -1,3 +1,11 @@
+.light {
+    --text-color: #000;
+}
+
+.dark {
+    --text-color: #fff;
+}
+
 .skill-card{
     width: max-content;
     padding: 8px 16px;
@@ -15,6 +23,7 @@
 
 .skill-name{
     font-size: 18px;
+    color: var(--text-color);
 }
 
 

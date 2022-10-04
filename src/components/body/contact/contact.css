@@ -1,3 +1,11 @@
+.light {
+    --text-color: #000;
+  }
+  
+  .dark {
+    --text-color: #fff;
+  }
+
 .contact{
     display: flex;
     flex: 1;
@@ -16,6 +24,7 @@
     justify-content: space-between;
     align-items: center;
     margin: 16px 0px;
+    color: var(--text-color);
 }
 
 .contact-left{

@@ -1,7 +1,19 @@
+.light {
+    --text-color: #000;
+}
+
+.dark {
+    --text-color: #fff;
+}
+
 .skills{
     display: flex;
     flex-direction: column;
     width: 100%;
+}
+
+.section-title {
+    color: #0077ff;
 }
 
 .skills-section{
@@ -13,6 +25,7 @@
 .skills-section-title{
     font-size: 24px;
     font-weight: 500;
+    color: var(--text-color);
 }
 
 .skills-list{

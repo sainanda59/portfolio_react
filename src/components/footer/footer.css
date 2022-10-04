@@ -1,6 +1,15 @@
+.light {
+    --text-color: #000;
+}
+
+.dark {
+    --text-color: #fff;
+}
+
 .footer{
     padding: 12px;
     display: flex;
     justify-content: center;
     margin-top: 24px;
+    color: var(--text-color);
 }

@@ -1,3 +1,11 @@
+.light {
+ --text-color: #000;
+}
+
+.dark {
+ --text-color: #fff;
+}
+
 .project-card{
     display: flex;
     flex: 1;
@@ -5,6 +13,7 @@
     align-items: center;
     margin: 16px 0px;
     padding: 8px 0px;
+    color: var(--text-color);
 }
 
 .project-photo{
@@ -24,6 +33,7 @@
     display: flex;
     max-width: 60%;
     flex-wrap: wrap;
+    color: #000;;
 }
 
 .tag{
